@@ -1,0 +1,62 @@
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files - NEVER COMMIT
+/.env
+/.env.*
+!/.env.example
+
+# IDE and editor
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+.phpactor.json
+
+# PHP / PHPUnit
+/.phpunit.result.cache
+/.phpunit.cache
+/auth.json
+
+# Composer dependencies
+/vendor
+
+# Node dependencies
+/node_modules
+
+# Laravel generated files
+/public/build
+/public/hot
+/public/storage
+
+# Laravel storage - generated data
+/storage/*.key
+/storage/app/private/*
+/storage/app/public/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Preserve Laravel directory placeholders
+!/storage/app/private/.gitignore
+!/storage/app/public/.gitignore
+!/storage/framework/cache/.gitignore
+!/storage/framework/sessions/.gitignore
+!/storage/framework/testing/.gitignore
+!/storage/framework/views/.gitignore
+!/storage/logs/.gitignore
+
+# Laravel Homestead
+Homestead.json
+Homestead.yaml
+
+# Other
+.phpunit-watcher.yml
