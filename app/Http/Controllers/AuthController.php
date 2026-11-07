@@ -104,7 +104,7 @@ class AuthController extends Controller
 
     // forgot password load
     public function forgetPasswordLoad(Request $request){
-        return view('forget-password');
+        return view('forgetPassword');
     }
 
     // forgot password
