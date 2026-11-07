@@ -61,7 +61,7 @@ class User extends Authenticatable
     }
 
     /**
-     * Scope hỗ trợ tìm kiếm người dùng (Dùng cho trang Quản lý Admin)
+     * Scope support for admin search user
      */
     public function scopeSearch($query)
     {
@@ -71,7 +71,7 @@ class User extends Authenticatable
                     ->orWhere('email', 'like', '%' . $key . '%')
                     ->orWhere('phone', 'like', '%' . $key . '%')
                     ->orWhere('gender', 'like', '%' . $key . '%')
-                    ->orWhereHas('role', function ($subQuery) use ($key) {
+                    ->orWhereHas('roles', function ($subQuery) use ($key) {
                         $subQuery->where('name', 'like', '%' . $key . '%');
                     });
             });

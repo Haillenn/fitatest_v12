@@ -30,6 +30,10 @@ class AuthController extends Controller
 
     // load register
     public function loadRegister(){
+        if(Auth::check()){
+            $route = $this->redirectDash();
+            return redirect($route);
+        }
         return view('register');
     }
 
@@ -45,7 +49,7 @@ class AuthController extends Controller
         $user->name = $request->name;
         $user->email = $request->email;
         $user->password = Hash::make($request->password);
-        $user->role = 2; // Mặc định role user thông thường
+        $user->role = 3; // User
         $user->save();
 
         return back()->with('success', 'Đăng ký thành công!');
@@ -77,7 +81,7 @@ class AuthController extends Controller
         }
     }
 
-    // phân trang điều hướng theo role
+    // pagination for role
     public function redirectDash()
     {
         $redirect = '';
@@ -128,7 +132,7 @@ class AuthController extends Controller
                     [
                         'email' => $request->email,
                         'token' => $token,
-                        'created_at' => $dateTime // Đã chuẩn hóa tên cột đúng với CSDL
+                        'created_at' => $dateTime
                     ]
                 );
                 return back()->with('success', 'Kiểm tra lại email của bạn!');
