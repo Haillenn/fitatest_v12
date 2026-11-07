@@ -12,7 +12,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
               aria-expanded="false">
-              <img src="{{ asset('/public/avatars/' . Auth::user()->avatar) }}" alt="" width="35" height="35" class="rounded-circle">
+              <img src="{{ asset('avatars/' . Auth::user()->avatar) }}" alt="" width="35" height="35" class="rounded-circle">
             </a>
             <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
               <div class="message-body">
@@ -43,7 +43,7 @@
                             <div class="col-md-4">
                                 <div class="avatar-container">
                                     @if(Auth::user()->avatar)
-                                        <img id="currentAvatar" src="{{ asset('/public/avatars/' . Auth::user()->avatar) }}" alt="Current Avatar" class="img-fluid">
+                                        <img id="currentAvatar" src="{{ asset('avatars/' . Auth::user()->avatar) }}" alt="Current Avatar" class="img-fluid">
                                     @endif
                                 </div>
                             </div>

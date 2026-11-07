@@ -8,8 +8,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ asset('/public/asset_home') }}/img/fita.png" rel="icon">
-    <link href="{{ asset('/public/asset_home') }}/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="{{ asset('asset_home') }}/img/fita.png" rel="icon">
+    <link href="{{ asset('asset_home') }}/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -18,15 +18,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Vendor CSS Files -->
-    <link href="{{ asset('/public/asset_home') }}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ asset('/public/asset_home') }}/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="{{ asset('/public/asset_home') }}/vendor/aos/aos.css" rel="stylesheet">
-    <link href="{{ asset('/public/asset_home') }}/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="{{ asset('/public/asset_home') }}/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="{{ asset('asset_home') }}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ asset('asset_home') }}/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="{{ asset('asset_home') }}/vendor/aos/aos.css" rel="stylesheet">
+    <link href="{{ asset('asset_home') }}/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="{{ asset('asset_home') }}/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <!-- Main CSS File -->
-    <link href="{{ asset('/public/asset_home') }}/css/main.css" rel="stylesheet">
+    <link href="{{ asset('asset_home') }}/css/main.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
@@ -91,13 +91,13 @@
 <!-- Preloader -->
 <div id="preloader"></div>
 
-<script src="{{ asset('/public/asset_home') }}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="{{ asset('/public/asset_home') }}/vendor/aos/aos.js"></script>
-<script src="{{ asset('/public/asset_home') }}/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="{{ asset('/public/asset_home') }}/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="{{ asset('asset_home') }}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('asset_home') }}/vendor/aos/aos.js"></script>
+<script src="{{ asset('asset_home') }}/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="{{ asset('asset_home') }}/vendor/swiper/swiper-bundle.min.js"></script>
 
 <!-- Main JS File -->
-<script src="{{ asset('/public/asset_home') }}/js/main.js"></script>
+<script src="{{ asset('asset_home') }}/js/main.js"></script>
 </body>
 
 </html>

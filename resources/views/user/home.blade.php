@@ -4,7 +4,7 @@
     <!-- Hero Section -->
     <section  class="hero section">
         <div class="hero-bg">
-            <img src="{{ asset('/public/asset_home') }}/img/hero-bg-light.webp" alt="">
+            <img src="{{ asset('asset_home') }}/img/hero-bg-light.webp" alt="">
         </div>
         <div class="container text-center">
             <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14,7 +14,7 @@
                     <a href="/login" class="btn-get-started">Đăng nhập</a>
                     <a href="https://www.youtube.com/watch?v=CNf-t45XUZg" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Xem video</span></a>
                 </div>
-                <img src="{{ asset('/public/asset_home') }}/img/hero-services-img.webp" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
+                <img src="{{ asset('asset_home') }}/img/hero-services-img.webp" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
             </div>
         </div>
 
@@ -87,15 +87,15 @@
                 <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
                     <div class="row gy-4">
                         <div class="col-lg-6">
-                            <img src="{{ asset('/public/asset_home') }}/img/about-company-1.jpg" class="img-fluid" alt="">
+                            <img src="{{ asset('asset_home') }}/img/about-company-1.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="col-lg-6">
                             <div class="row gy-4">
                                 <div class="col-lg-12">
-                                    <img src="{{ asset('/public/asset_home') }}/img/about-company-2.jpg" class="img-fluid" alt="">
+                                    <img src="{{ asset('asset_home') }}/img/about-company-2.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-lg-12">
-                                    <img src="{{ asset('/public/asset_home') }}/img/about-company-3.jpg" class="img-fluid" alt="">
+                                    <img src="{{ asset('asset_home') }}/img/about-company-3.jpg" class="img-fluid" alt="">
                                 </div>
                             </div>
                         </div>
@@ -116,27 +116,27 @@
             <div class="row gy-4">
 
                 <div class="col-xl-2 col-md-3 col-6 client-logo">
-                    <img src="{{ asset('/public/asset_home') }}/img/logophp.png" class="img-fluid" alt="">
+                    <img src="{{ asset('asset_home') }}/img/logophp.png" class="img-fluid" alt="">
                 </div><!-- End Client Item -->
 
                 <div class="col-xl-2 col-md-3 col-6 client-logo">
-                    <img src="{{ asset('/public/asset_home') }}/img/mysql.1.jpg" class="img-fluid" style="background-color: #ffffff" alt="">
+                    <img src="{{ asset('asset_home') }}/img/mysql.1.jpg" class="img-fluid" style="background-color: #ffffff" alt="">
                 </div><!-- End Client Item -->
 
                 <div class="col-xl-2 col-md-3 col-6 client-logo">
-                    <img src="{{ asset('/public/asset_home') }}/img/logolrv.png" class="img-fluid" alt="">
+                    <img src="{{ asset('asset_home') }}/img/logolrv.png" class="img-fluid" alt="">
                 </div><!-- End Client Item -->
 
                 <div class="col-xl-2 col-md-3 col-6 client-logo">
-                    <img src="{{ asset('/public/asset_home') }}/img/favicon.png" class="img-fluid" alt="">
+                    <img src="{{ asset('asset_home') }}/img/favicon.png" class="img-fluid" alt="">
                 </div><!-- End Client Item -->
 
                 <div class="col-xl-2 col-md-3 col-6 client-logo">
-                    <img src="{{ asset('/public/asset_home') }}/img/jquerry.jpg" class="img-fluid" alt="">
+                    <img src="{{ asset('asset_home') }}/img/jquerry.jpg" class="img-fluid" alt="">
                 </div><!-- End Client Item -->
 
                 <div class="col-xl-2 col-md-3 col-6 client-logo">
-                    <img src="{{ asset('/public/asset_home') }}/img/SSL.jpg" class="img-fluid" alt="">
+                    <img src="{{ asset('asset_home') }}/img/SSL.jpg" class="img-fluid" alt="">
                 </div><!-- End Client Item -->
 
             </div>
@@ -199,15 +199,15 @@
                     <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
 
                         <div class="tab-pane fade active show" id="features-tab-1">
-                            <img src="{{ asset('/public/asset_home') }}/img/tabs-1.jpg" alt="" class="img-fluid">
+                            <img src="{{ asset('asset_home') }}/img/tabs-1.jpg" alt="" class="img-fluid">
                         </div><!-- End Tab Content Item -->
 
                         <div class="tab-pane fade" id="features-tab-2">
-                            <img src="{{ asset('/public/asset_home') }}/img/tabs-2.jpg" alt="" class="img-fluid">
+                            <img src="{{ asset('asset_home') }}/img/tabs-2.jpg" alt="" class="img-fluid">
                         </div><!-- End Tab Content Item -->
 
                         <div class="tab-pane fade" id="features-tab-3">
-                            <img src="{{ asset('/public/asset_home') }}/img/tabs-3.jpg" alt="" class="img-fluid">
+                            <img src="{{ asset('asset_home') }}/img/tabs-3.jpg" alt="" class="img-fluid">
                         </div><!-- End Tab Content Item -->
                     </div>
 
@@ -359,7 +359,7 @@
                             <p>
                                 Website thi trắc nghiệm đã giúp đỡ chúng em rất nhiều trong việc ôn tập trước khi thi cử, chúc website ngày càng phát triển trong tương lai!</p>
                             <div class="profile mt-auto">
-                                <img src="{{ asset('/public/asset_home') }}/img/testimonials/huy.jpg" class="testimonial-img" alt="">
+                                <img src="{{ asset('asset_home') }}/img/testimonials/huy.jpg" class="testimonial-img" alt="">
                                 <h3>Tuấn Huy</h3>
                                 <h4>Sinh viên</h4>
                             </div>
@@ -374,7 +374,7 @@
                             <p>
                                 Website không chỉ giúp chúng em làm những bài test mà còn giúp chúng em có những tài liệu cần thiết để chúng em có thể tham khảo, cảm ơn Website rất nhiều ạ!                </p>
                             <div class="profile mt-auto">
-                                <img src="{{ asset('/public/asset_home') }}/img/testimonials/trang.jpg" class="testimonial-img" alt="">
+                                <img src="{{ asset('asset_home') }}/img/testimonials/trang.jpg" class="testimonial-img" alt="">
                                 <h3>Hà Trang</h3>
                                 <h4>Sinh viên</h4>
                             </div>
@@ -389,7 +389,7 @@
                             <p>
                                 Cảm ơn FITA TEST đã giúp đỡ chúng em trong thời gian ôn thi vừa qua, chúc cho website hoạt động được thật lâu dài!</p>
                             <div class="profile mt-auto">
-                                <img src="{{ asset('/public/asset_home') }}/img/testimonials/thanh.jpg" class="testimonial-img" alt="">
+                                <img src="{{ asset('asset_home') }}/img/testimonials/thanh.jpg" class="testimonial-img" alt="">
                                 <h3>Dương Thanh</h3>
                                 <h4>Sinh viên</h4>
                             </div>
@@ -404,7 +404,7 @@
                             <p>
                                 Cảm ơn FITA TEST đã giúp em vượt qua các kì thi khi học tại Học viện Nông nghiệp Việt Nam!</p>
                             <div class="profile mt-auto">
-                                <img src="{{ asset('/public/asset_home') }}/img/testimonials/minh.jpg" class="testimonial-img" alt="">
+                                <img src="{{ asset('asset_home') }}/img/testimonials/minh.jpg" class="testimonial-img" alt="">
                                 <h3>Ngọc Minh</h3>
                                 <h4>Sinh viên</h4>
                             </div>
@@ -419,7 +419,7 @@
                             <p>
                                 Cảm ơn website thi trắc nghiệm đã giúp tôi có thể kiếm tra cũng như hỗ trợ sinh viên,... trong việc ôn tập trước kì thi!</p>
                             <div class="profile mt-auto">
-                                <img src="{{ asset('/public/asset_home') }}/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                                <img src="{{ asset('asset_home') }}/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                                 <h3>Văn Hoàng</h3>
                                 <h4>Giảng viên</h4>
                             </div>
@@ -479,7 +479,7 @@
                 </div><!-- End Google Maps -->
 
                 <div class="col-lg-6">
-                    <img src="{{ asset('/public/asset_home') }}/img/hero-bg-light.webp" alt="ảnh" style="width:636px;height:400px;">
+                    <img src="{{ asset('asset_home') }}/img/hero-bg-light.webp" alt="ảnh" style="width:636px;height:400px;">
                 </div><!-- End Contact Form -->
 
             </div>

@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Quên mật khẩu</title>
-  <link rel="shortcut icon" type="image/png" href="{{asset('/public/assets')}}/images/logos/favicon.png" />
-  <link rel="stylesheet" href="{{asset('/public/assets')}}/css/styles.min.css" />
-  <link rel="stylesheet" href="{{asset('/public/assets')}}/css/app.css" />
+  <link rel="shortcut icon" type="image/png" href="{{asset('assets')}}/images/logos/favicon.png" />
+  <link rel="stylesheet" href="{{asset('assets')}}/css/styles.min.css" />
+  <link rel="stylesheet" href="{{asset('assets')}}/css/app.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
     {{-- main content --}}
@@ -20,7 +20,7 @@
             <div class="card mb-0">
               <div class="card-body">
                 <a href="/" class="text-nowrap logo-img text-center d-block py-3 w-100">
-                  <img src="{{asset('/public/assets')}}/images/logos/fita-logo-01.svg" width="180" alt="">
+                  <img src="{{asset('assets')}}/images/logos/fita-logo-01.svg" width="180" alt="">
                 </a>
                 <p class="text-center">Quên mật khẩu</p>
                 @if($errors->any())
@@ -55,12 +55,12 @@
       </div>
     </div>
   </div>
-  <script src="{{asset('/public/assets')}}/libs/jquery/dist/jquery.min.js"></script>
-  <script src="{{asset('/public/assets')}}/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="{{asset('/public/assets')}}/js/sidebarmenu.js"></script>
-  <script src="{{asset('/public/assets')}}/js/app.min.js"></script>
-  <script src="{{asset('/public/assets')}}/libs/apexcharts/dist/apexcharts.min.js"></script>
-  <script src="{{asset('/public/assets')}}/libs/simplebar/dist/simplebar.js"></script>
-  <script src="{{asset('/public/assets')}}/js/dashboard.js"></script>
+  <script src="{{asset('assets')}}/libs/jquery/dist/jquery.min.js"></script>
+  <script src="{{asset('assets')}}/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="{{asset('assets')}}/js/sidebarmenu.js"></script>
+  <script src="{{asset('assets')}}/js/app.min.js"></script>
+  <script src="{{asset('assets')}}/libs/apexcharts/dist/apexcharts.min.js"></script>
+  <script src="{{asset('assets')}}/libs/simplebar/dist/simplebar.js"></script>
+  <script src="{{asset('assets')}}/js/dashboard.js"></script>
 </body>
 </html>
