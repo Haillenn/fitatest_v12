@@ -4,7 +4,7 @@
          <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
              <a href="/user/dashboard" class="logo d-flex align-items-center me-auto">
-                 <img src="{{ asset('/public/asset_home') }}/img/fita.png" alt="">
+                 <img src="{{ asset('asset_home') }}/img/fita.png" alt="">
                  <h1 class="sitename">FITA TEST</h1>
              </a>
 
@@ -37,12 +37,12 @@
                              @if (Auth::check())
                                  <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
                                     aria-expanded="false">
-                                     <img src="{{ asset(Auth::user()->avatar ? '/public/avatars/' . Auth::user()->avatar : '/public/assets/images/profile/user-1.jpg') }}" alt="" width="35" height="35" class="rounded-circle">
+                                     <img src="{{ asset(Auth::user()->avatar ? 'avatars/' . Auth::user()->avatar : 'assets/images/profile/user-1.jpg') }}" alt="" width="35" height="35" class="rounded-circle">
                                      {{ Auth::user()->name }}
                                  </a>
                              @else
                                  <a class="nav-link nav-icon-hover" href="/login">
-                                     <img src="{{asset('/public/assets')}}/images/profile/user-1.jpg" alt="" width="35" height="35" class="rounded-circle">
+                                     <img src="{{asset('assets')}}/images/profile/user-1.jpg" alt="" width="35" height="35" class="rounded-circle">
                                      Đăng nhập
                                  </a>
                              @endif
@@ -97,7 +97,7 @@
                                      <div class="col-md-4">
                                          <div class="avatar-container">
                                              @if(Auth::user()->avatar)
-                                                 <img id="currentAvatar" src="{{ asset('public/avatars/' . Auth::user()->avatar) }}" alt="Current Avatar" class="img-fluid">
+                                                 <img id="currentAvatar" src="{{ asset('avatars/' . Auth::user()->avatar) }}" alt="Current Avatar" class="img-fluid">
                                              @endif
                                          </div>
                                      </div>

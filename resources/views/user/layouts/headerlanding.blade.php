@@ -4,7 +4,7 @@
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
             <a href="" class="logo d-flex align-items-center me-auto">
-                <img src="{{ asset('/public/asset_home') }}/img/fita.png" alt="">
+                <img src="{{ asset('asset_home') }}/img/fita.png" alt="">
                 <h1 class="sitename">FITA TEST</h1>
             </a>
 

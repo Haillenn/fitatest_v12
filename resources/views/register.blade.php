@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> Đăng ký </title>
-  <link rel="shortcut icon" type="image/png" href="{{asset('/public/assets')}}/images/logos/favicon.png" />
-  <link rel="stylesheet" href="{{asset('/public/assets')}}/css/styles.min.css" />
+  <link rel="shortcut icon" type="image/png" href="{{asset('assets')}}/images/logos/favicon.png" />
+  <link rel="stylesheet" href="{{asset('assets')}}/css/styles.min.css" />
 </head>
 <body>
   <!--  Body Wrapper -->
@@ -19,7 +19,7 @@
           <div class="card mb-0">
             <div class="card-body">
               <a href="/" class="text-nowrap logo-img text-center d-block py-3 w-100">
-                <img src="{{asset('/public/assets')}}/images/logos/fita-logo-01.svg" width="180" alt="">
+                <img src="{{asset('assets')}}/images/logos/fita-logo-01.svg" width="180" alt="">
               </a>
               <p class="text-center">Đăng ký</p>
 
@@ -64,8 +64,8 @@
     </div>
   </div>
 </div>
-<script src="{{asset('/public/assets')}}/libs/jquery/dist/jquery.min.js"></script>
-<script src="{{asset('/public/assets')}}/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{asset('assets')}}/libs/jquery/dist/jquery.min.js"></script>
+<script src="{{asset('assets')}}/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
